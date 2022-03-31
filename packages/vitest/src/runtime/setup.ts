@@ -117,7 +117,7 @@ export async function withEnv(
     await fn()
   }
   finally {
-    await env.teardown(globalThis)
+    // await env.teardown(globalThis)
   }
 }
 
