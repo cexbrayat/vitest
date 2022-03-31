@@ -58,8 +58,7 @@ export default <Environment>({
     }
 
     return {
-      teardown(global) {
-        keys.forEach(key => delete global[key])
+      teardown() {
       },
     }
   },
